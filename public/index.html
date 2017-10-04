@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- IMPORTANTE: SE EU CARREGAR O JQUEY ANTES DO ANGULAR, ELE SUBSTITUI O JKLITE PELO JQUERY, ASSIM TEREI TODAS AS FUNÇÕES DO JQUERY -->
+<html lang="pt-br" ng-app="alurapic">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <base href="/">
+        <title>Alurapic</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/efeitos.css">
+        <script src="js/lib/angular.min.js"></script>
+        <script src="js/lib/angular-animate.min.js"></script>
+        <script src="js/lib/angular-route.min.js"></script>
+        <script src="js/lib/angular-resource.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/controllers/fotos-controller.js"></script>
+        <script src="js/controllers/foto-controller.js"></script>
+        <script src="js/controllers/grupos-controller.js"></script>
+        <script src="js/directives/minhas-diretivas.js"></script>
+        <script src="js/services/meus-servicos.js"></script>
+    </head>
+    <!--<body ng-controller="FotosController">-->
+    <body>
+        <div class="container">
+            <ng-view></ng-view>
+        </div> <!-- fim container -->
+    </body>
+</html>
