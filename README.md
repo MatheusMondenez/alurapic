@@ -1,2 +1,2 @@
 # Alurapic
-Galeria de imagens com AngularJS
+Galeria de imagens com AngularJS :wink:
